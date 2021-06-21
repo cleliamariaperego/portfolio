@@ -1,0 +1,100 @@
+/*dark mode*/
+body {
+  background-color: black;
+  font-family: "Courier New";
+  color: #ddc69c;
+}
+
+.immagini {
+  filter: invert(100%);
+}
+
+/*default*/
+.sx {
+  padding-top: 200px;
+  float: left;
+  width: 20%;
+  height: 100%;
+}
+.dx {
+  padding-top: 200px;
+  float: left;
+  width: 20%;
+  height: 100%;
+}
+.centro{
+  float:left;
+  width:60%;
+  height:200px;
+}
+.centrotxt {
+  padding-top: 100px;
+  float:left;
+  width:60%;
+}
+.centroabout {
+  padding-top: 200px;
+  float:left;
+  width:60%;
+}
+.foto{
+  padding-top: 100px;
+}
+.lavori {
+  float:left;
+  width:60%;
+  height:700px;
+  margin-top: 10px;
+  padding-top: 50px;
+  padding-bottom: 90px;
+  overflow: scroll;
+}
+.testi {
+  margin-top: 50px;
+}
+#home1 {
+  position: absolute;
+  right: 600px;
+  left: 600px;
+  z-index: 3;
+}
+#home1:hover {
+  opacity: 0%;
+}
+#home2 {
+  position: absolute;
+  right: 600px;
+  left: 600px;
+  z-index: 1;*
+}
+#nome {
+    padding-top: 100px;
+}
+#sfondo {
+  height: 500px;
+}
+#pulsantedarkmode {
+  margin-top: 200px;
+  background-color: black;
+  border: none;
+  font-family: "Courier New";
+  color: #ddc69c;
+}
+#pulsantedarkmode:hover{
+    text-decoration: line-through;
+}
+#paginacorrente {
+  text-decoration: line-through;
+  color: #ddc69c;
+}
+.bottone {
+  text-decoration: none;
+  color: #ddc69c;
+}
+.bottone:hover{
+  text-decoration: line-through;
+}
+#moretocome {
+  color: #a2a2a2;
+  font-weight: lighter;
+}
