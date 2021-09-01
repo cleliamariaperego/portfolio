@@ -3,7 +3,7 @@ body {
   background-color: white;
   font-family: "Helvetica Neue";
   font-weight: 200;
-  color: #005ABF;
+  color: #0D4787;
 }
 /*definisce div principali*/
 /*uguale in tutte le pagine*/
@@ -83,12 +83,12 @@ body {
 /*definisce lo stile del menu a pulsanti*/
 #paginacorrente {
   text-decoration: line-through;
-  color: #005ABF;
+  color: #0D4787;
   font-weight: lighter;
 }
 .bottone {
   text-decoration: none;
-  color: #005ABF;
+  color: #0D4787;
 }
 .bottone:hover{
   text-decoration: line-through;

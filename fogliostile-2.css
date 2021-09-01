@@ -2,7 +2,8 @@
 body {
   background-color: black;
   font-family: "Helvetica Neue";
-  color: #ddc69c;
+  font-weight: 200;
+  color: #F0C876;
 }
 
 .immagini {
@@ -78,18 +79,20 @@ body {
   background-color: black;
   border: none;
   font-family: "Helvetica Neue";
-  color: #ddc69c;
+  color: #F0C876;
+  font-weight: lighter;
 }
 #pulsantedarkmode:hover{
     text-decoration: line-through;
 }
 #paginacorrente {
   text-decoration: line-through;
-  color: #ddc69c;
+  color: #F0C876;
+  font-weight: lighter;
 }
 .bottone {
   text-decoration: none;
-  color: #ddc69c;
+  color: #F0C876;
 }
 .bottone:hover{
   text-decoration: line-through;
@@ -97,4 +100,7 @@ body {
 #moretocome {
   color: #a2a2a2;
   font-weight: lighter;
+}
+#testi {
+font-weight: 300;
 }
