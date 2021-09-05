@@ -20,7 +20,7 @@ body {
   height: 100%;
 }
 /*cambia in base a pagina*/
-.centro{
+.centroindex{
   float:left;
   width:60%;
   height:200px;
@@ -73,11 +73,11 @@ body {
 }
 /*nome home page*/
 #nome {
-/*  margin-top: 100px;*/
+  height: 150px;
 }
 /*immagine sfondo a sx*/
 #sfondo {
-  padding-top: 100px;s
+  padding-top: 100px;
   height: 500px;
 }
 /*definisce lo stile del menu a pulsanti*/
@@ -104,12 +104,186 @@ body {
 #pulsantedarkmode:hover{
     text-decoration: line-through;
 }
-/*p (more to come)*/
+/*p (more to come)
 #moretocome {
   color: #a2a2a2;
   font-weight: lighter;
-}
+}*/
 
 #testi {
 font-weight: 300;
+}
+
+/*ottimizzazione*/
+
+/*VISUALIZZAZIONE DA LAPTOP*/
+@media (max-width: 1200px) {
+  .sx {
+    padding-top: 230px;
+    float: left;
+    width: 20%;
+    height: 100%;
+  }
+  .dx {
+    padding-top: 200px;
+    float: left;
+    width: 20%;
+    height: 100%;
+  }
+  /*cambia in base a pagina*/
+  .centroindex{
+    float:left;
+    width:60%;
+    height:200px;
+  }
+  .centrotxt {
+    padding-top:  170px;
+    float:left;
+    width:60%;
+  }
+  .centrotxt2 {
+    padding-top:  250px;
+    float:left;
+    width:60%;
+  }
+  .centroabout {
+    padding-top: 200px;
+    float:left;
+    width:60%;
+  }
+  .foto{
+    padding-top: 50px;
+  }
+  .lavori {
+    float:left;
+    width:60%;
+    height:700px;
+    margin-top: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    overflow: scroll;
+  }
+  .testi{
+    margin-top: 50px;
+  }
+
+}
+
+
+/*VISUALIZZAZIONE DA TABLET*/
+@media (max-width: 980px) {
+  .sx {
+    padding-top: 400px;
+    float: left;
+    width: 20%;
+    height: 100%;
+  }
+  .dx {
+    padding-top: 370px;
+    float: left;
+    width: 20%;
+    height: 100%;
+  }
+  /*cambia in base a pagina*/
+  .centroindex{
+    padding-top: 200px;
+    float:left;
+    width:60%;
+    height:100%;
+  }
+  .centrotxt {
+    padding-top:  170px;
+    float:left;
+    width:60%;
+  }
+  .centrotxt2 {
+    padding-top:  250px;
+    float:left;
+    width:60%;
+  }
+  .centroabout {
+    padding-top: 200px;
+    float:left;
+    width:60%;
+  }
+  .foto{
+    padding-top: 50px;
+  }
+  .lavori {
+    float:left;
+    width:60%;
+    height:700px;
+    margin-top: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    overflow: scroll;
+  }
+  .testi{
+    margin-top: 50px;
+  }
+
+}
+
+
+
+/*VISUALIZZAZIONE DA MOBILE ORIZZONTALE*/
+@media (max-width: 812px) {
+  .sx {
+    padding-top: 100px;
+    float: left;
+    width: 20%;
+    height: 100%;
+  }
+  .dx {
+    padding-top: 50px;
+    float: left;
+    width: 20%;
+    height: 100%;
+  }
+  .centroindex{
+    padding-top: 50px;
+    float:left;
+    width:60%;
+    height:100%;
+  }
+  #sfondo {
+    padding-top: 0px;
+    height: 300px;
+  }
+  #nome {
+  height: 120px;
+  }
+}
+
+
+
+
+/*VISUALIZZAZIONE DA MOBILE VERTICALE*/
+@media (max-width: 480px) {
+  .sx {
+    padding-top: 50px;
+    float: left;
+    width: 100%;
+    height: 100%;
+  }
+  .dx {
+    padding-top: 70px;
+    /*float: left;*/
+    width: 50%;
+    height: 100%;
+  }
+  .centroindex{
+    padding-top: 60px;
+    float:left;
+    width:50%;
+    height:100%;
+  }
+  #sfondo {
+    padding-top: 0px;
+    height: 300px;
+  }
+  #nome {
+  height: 120px;
+  }
+
 }
