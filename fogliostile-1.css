@@ -118,7 +118,7 @@ font-weight: 300;
 /*ottimizzazione*/
 
 /*VISUALIZZAZIONE DA LAPTOP*/
-@media (max-width: 1200px) {
+@media (max-width: 1500px) {
   .sx {
     padding-top: 230px;
     float: left;
