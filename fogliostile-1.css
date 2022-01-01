@@ -125,6 +125,12 @@ writing-mode: vertical-rl;
 text-orientation: mixed;
 float:right;
 }
+#warning {
+color: #0000EE;
+z-index: 4;
+float: left;
+margin-left:100px;
+}
 
 /*ottimizzazione*/
 
