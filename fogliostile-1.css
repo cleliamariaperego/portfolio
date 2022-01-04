@@ -228,6 +228,7 @@ float:right;
 #sfondo {
   padding-top: 100px;
   height: 500px;
+  margin-left:-100px;
 }
 
 
