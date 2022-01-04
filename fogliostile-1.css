@@ -77,10 +77,6 @@ body {
   height: 100px;
 }
 /*immagine sfondo a sx*/
-#sfondo {
-  padding-top: 100px;
-  height: 500px;
-}
 /*definisce lo stile del menu a pulsanti*/
 #paginacorrente {
   text-decoration: line-through;
@@ -118,13 +114,7 @@ body {
 font-weight: 300;
 }
 
-#frecciagiù {
-margin-top: 300px;
-margin-right: 10px;
-writing-mode: vertical-rl;
-text-orientation: mixed;
-float:right;
-}
+
 #warning {
 color: #0000EE;
 z-index: 4;
@@ -227,116 +217,29 @@ margin-left:100px;
 color: #0000EE;
 }
 
+#frecciagiù {
+margin-top: 300px;
+margin-right: 10px;
+writing-mode: vertical-rl;
+text-orientation: mixed;
+float:right;
+}
+
+#sfondo {
+  padding-top: 100px;
+  height: 500px;
+}
+
 
 /*VISUALIZZAZIONE DA TABLET*/
 @media (max-width: 980px) {
   .sx {
-    padding-top: 400px;
-    float: left;
-    width: 20%;
-    height: 100%;
-  }
-  .dx {
-    padding-top: 370px;
-    float: left;
-    width: 20%;
-    height: 100%;
-  }
-  /*cambia in base a pagina*/
-  .centroindex{
-    padding-top: 200px;
-    float:left;
-    width:60%;
-    height:100%;
-  }
-  .centrotxt {
-    padding-top:  170px;
-    float:left;
-    width:60%;
-  }
-  .centrotxt2 {
-    padding-top:  250px;
-    float:left;
-    width:60%;
-  }
-  .centroabout {
-    padding-top: 380px;
-    float:left;
-    width:60%;
-  }
-  .foto{
-    padding-top: 50px;
-  }
-  .lavori {
-    float:left;
-    width:60%;
-    height: 300px;
-    margin-top: 20px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    overflow: scroll;
-  }
-  .testi{
-    margin-top: 50px;
-  }
-
-}
-
-#warning {
-color: #0000EE;
-}
-
-
-
-/*VISUALIZZAZIONE DA MOBILE ORIZZONTALE*/
-@media (max-width: 812px) {
-  .sx {
-    padding-top: 100px;
-    float: left;
-    width: 20%;
-    height: 100%;
-  }
-  .dx {
+    padding-left: 50px;
     padding-top: 50px;
     float: left;
     width: 20%;
-    height: 100%;
-  }
-  .centroindex{
-    padding-top: 50px;
-    float:left;
-    width:60%;
-    height:100%;
-  }
-  #sfondo {
-    padding-top: 0px;
-    height: 300px;
-  }
-  #nome {
-  height: 120px;
-  }
-/**/
-.centroabout {
-  padding-top: 50px;
-  float:left;
-  width:60%;
-}
-}
-#warning {
-color: #0000EE;
-}
-
-
-
-/*VISUALIZZAZIONE DA MOBILE VERTICALE*/
-@media (max-width: 480px) {
-  .sx {
-    padding-left: 100px;
-    padding-top: 100px;
-    float: left;
-    width: 20%;
-    height: 100%;
-    position: fixed;
+    height: 80%;
+    position: absolute;
     z-index: -1;
   }
   .dx {
@@ -350,11 +253,12 @@ color: #0000EE;
     float:left;
     margin-left: 400px;
     width:60%;
-    height:200px;
+    height:80px;
   }
+  /*pagina work*/
   .centrotxt {
     padding-top:  170px;
-    margin-left: 400px;
+    margin-left: 300px;
     float:left;
     width:60%;
   }
@@ -366,7 +270,7 @@ color: #0000EE;
   }
   .centroabout {
     padding-top: 200px;
-    margin-left: 400px;
+    margin-left: 300px;
     float:left;
     width:60%;
   }
@@ -399,7 +303,7 @@ color: #0000EE;
   .lavori {
     float:left;
     width:60%;
-    margin-left: 400px;
+    margin-left: 280px;
     margin-top: 20px;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -415,8 +319,217 @@ color: #0000EE;
     margin-top: 50px;
     margin-bottom:20px;
   }
+
+}
+#warning {
+color: #0000EE;
+}
+
+
+/*VISUALIZZAZIONE DA MOBILE ORIZZONTALE*/
+@media (max-width: 767px) {
+  .sx {
+    padding-left: 50px;
+    padding-top: 50px;
+    float: left;
+    width: 20%;
+    height: 90%;
+    position: fixed;
+    z-index: -1;
+  }
+  .dx {
+    padding-top: 200px;
+    float: left;
+    width: 20%;
+    height: 100%;
+  }
+  /*cambia in base a pagina*/
+  .centroindex{
+    float:left;
+    margin-left: 200px;
+    width:50%;
+    height:90%;
+  }
+  .centrotxt {
+    padding-top:  100px;
+    margin-left: 300px;
+    float:left;
+    width:60%;
+  }
+  .centrotxt2 {
+    padding-top:  250px;
+    margin-left: 400px;
+    float:left;
+    width:60%;
+  }
+  .centroabout {
+    padding-top: 80px;
+    margin-left: 300px;
+    float:left;
+    width:60%;
+  }
+  .fotouno{
+    float:left;
+    width:100%;
+    height:510px;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space:nowrap;
+    display: inline-block;
+  }
+  .fotopiù{
+    float:left;
+    width:100%;
+    height:510px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding-top: 0px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space:nowrap;
+    display: inline-block;
+  }
+  .lavori {
+    float:left;
+    width:60%;
+    margin-left: 240px;
+    margin-top: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    overflow: scroll;
+  }
+  .testi{
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+  .testisezioni{
+    padding-top: 50px;
+    margin-left: 0px;
+    margin-top: 50px;
+    margin-bottom:20px;
+  }
+
+}
+#warning {
+color: #0000EE;
+}
+#sfondo {
+  padding-top: 0px;
+  height: 400px;
+}
+
+/*VISUALIZZAZIONE DA MOBILE VERTICALE*/
+@media (max-width: 480px) {
+  .sx {
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+    width: 90%;
+    height: 30%;
+    position: absolute;
+    z-index: +1;
+  }
+  .dx {
+    padding-top: 200px;
+    float: left;
+    width: 20%;
+    height: 0%;
+    display: none;
+  }
+  /*cambia in base a pagina*/
+  .centroindex{
+    float:none;
+    margin-left: 70px;
+    width:80%;
+    height:70%;
+    z-index:-1;
+  }
+  .centrotxt {
+    padding-top:  250px;
+    margin-left: 20px;
+    float:none;
+    width:90%;
+  }
+  .centrotxt2 {
+    padding-top:  50px;
+    margin-left: 20px;
+    float:left;
+    width:100%;
+  }
+  .centroabout {
+    padding-top: 250px;
+    margin-left: 20px;
+    float:none;
+    width:90%;
+  }
+  .fotouno{
+    float:left;
+    width:100%;
+    height:510px;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space:nowrap;
+    display: inline-block;
+  }
+  .fotopiù{
+    float:left;
+    width:100%;
+    height:510px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding-top: 0px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space:nowrap;
+    display: inline-block;
+  }
+  .lavori {
+    float:none;
+    width:90%;
+    margin-left: 20px;
+    padding-top: 250px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    overflow: scroll;
+  }
+  .testi{
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+  .testisezioni{
+    padding-top: 50px;
+    margin-left: 0px;
+    margin-top: 50px;
+    margin-bottom:20px;
+  }
+
+  }
   #warning {
   color: #0000EE;
+  }
+
+  #frecciagiù {
+  margin-top: -50px;
+  margin-right: -5px;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  float:right;
+  }
+
+
+  #sfondo {
+    padding-top: 100px;
+    height: 500px;
   }
 
 
