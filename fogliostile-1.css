@@ -432,7 +432,7 @@ color: #0000EE;
     margin-left: 70px;
     width:80%;
     height:70%;
-    z-index:-1;
+    z-index:0;
   }
   .centrotxt {
     padding-top:  250px;
