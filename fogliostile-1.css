@@ -463,18 +463,13 @@ color: #0000EE;
   }
   /*cambia in base a pagina*/
   .centroindex{
-    float:right;
-    margin-top: 0px;
-    width:70%;
+     padding-top: 250px;
+    margin-left: 20px;
+    float:none;
   }
 
   #frecciagiù {
     margin-left: 20px;
-  }
-   .centroabout {
-    padding-top: 250px;
-    margin-left: 20px;
-    float:none;
   }
   .centrotxt2 {
     padding-top:  50px;
