@@ -284,7 +284,7 @@ float:right;
     width:60%;
   }
   .centroabout {
-    padding-top: 200px;
+    padding-top: 0px;
     margin-left: 300px;
     float:left;
     width:60%;
@@ -444,7 +444,7 @@ color: #0000EE;
     padding-left: 20px;
     padding-top: 10px;
     float: left;
-    width: 90%;
+    width: 30%;
     height: 30%;
     position: absolute;
     z-index: 0;
