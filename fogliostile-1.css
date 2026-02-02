@@ -126,6 +126,12 @@ body {
 font-weight: 300;
 }
 
+#txt { 
+  font-weight: lighter;
+  font-size: 14px;
+  color: #555555;
+}
+
 /*ottimizzazione*/
 
 /*VISUALIZZAZIONE DA LAPTOP*/
@@ -458,15 +464,15 @@ color: #0000EE;
   }
   /*cambia in base a pagina*/
   .centroindex{
-    float:none;
-    margin-left: 70px;
-    margin margin-top: 200px;
+    float:left;
+    margin-left: 0px;
+    margin-top: 200px;
     width:100%;
     z-index:0;
   }
 
   #frecciagiù {
-    margin-left: 20;
+    margin-left: 20px;
   }
   .centrotxt {
     padding-top:  250px;
