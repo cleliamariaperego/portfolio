@@ -359,12 +359,12 @@ color: #0000EE;
     height: 100%;
   }
   /*cambia in base a pagina*/
-  .centroindex{
-    float:left;
+    .centroindex {
+    flex-direction: column;
     margin-left: 200px;
-    width:50%;
-    height:90%;
+    width: 70%;
   }
+    
   .centrotxt {
     padding-top:  100px;
     margin-left: 300px;
@@ -379,7 +379,7 @@ color: #0000EE;
   }
   .centroabout {
     padding-top: 80px;
-    margin-left: 300px;
+    margin-left: 200px;
     float:left;
     width:60%;
   }
@@ -478,9 +478,9 @@ color: #0000EE;
   }
   .centroabout {
     padding-top: 250px;
-    margin-left: 20px;
+    margin-left: 0px;
     float:none;
-    width:90%;
+    width:70%;
   }
   .fotouno{
     float:left;
