@@ -464,7 +464,7 @@ color: #0000EE;
   /*cambia in base a pagina*/
   .centroindex{
     float:right;
-    margin-top: 200px;
+    margin-top: 0px;
     width:70%;
   }
 
