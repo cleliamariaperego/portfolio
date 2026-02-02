@@ -453,7 +453,6 @@ color: #0000EE;
     width: 30%;
     height: 30%;
     position: absolute;
-    z-index: 2;
   }
   .dx {
     padding-top: 200px;
@@ -464,21 +463,18 @@ color: #0000EE;
   }
   /*cambia in base a pagina*/
   .centroindex{
-    float:left;
-    margin-left: 0px;
+    float:right;
     margin-top: 200px;
-    width:100%;
-    z-index:0;
+    width:70%;
   }
 
   #frecciagiù {
     margin-left: 20px;
   }
-  .centrotxt {
-    padding-top:  250px;
+   .centroabout {
+    padding-top: 250px;
     margin-left: 20px;
     float:none;
-    width:90%;
   }
   .centrotxt2 {
     padding-top:  50px;
