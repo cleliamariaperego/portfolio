@@ -362,7 +362,7 @@ color: #0000EE;
     .centroindex {
     flex-direction: column;
     margin-left: 200px;
-    width: 60%;
+    width: 70%;
   }
     
   .centrotxt {
@@ -444,7 +444,7 @@ color: #0000EE;
     padding-left: 20px;
     padding-top: 10px;
     float: left;
-    width: 90%;
+    width: 30%;
     height: 30%;
     position: absolute;
     z-index: 2;
@@ -462,6 +462,10 @@ color: #0000EE;
     margin-left: 70px;
     width:70%;
     z-index:0;
+  }
+
+  #frecciagiù {
+    margin-left: 20;
   }
   .centrotxt {
     padding-top:  250px;
