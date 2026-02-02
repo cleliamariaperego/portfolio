@@ -447,7 +447,7 @@ color: #0000EE;
     width: 30%;
     height: 30%;
     position: absolute;
-    z-index: 0;
+    z-index: 2;
   }
   .dx {
     padding-top: 200px;
@@ -477,7 +477,7 @@ color: #0000EE;
   }
   .centroabout {
     padding-top: 250px;
-    margin-left: 0px;
+    margin-left: 20px;
     float:none;
     width:70%;
   }
